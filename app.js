@@ -46,7 +46,7 @@ function mostrarAmigoNuevo(){
         validacionAmigo.appendChild(item);
         }
 }
-//fin de la función limpiar caja
+//fin de la función
 
 
 function sortearAmigo(){
@@ -61,6 +61,7 @@ let amigoSecreto=amigos[posicionAmigoSecreto];
 //Mostrar el resultado: Actualizar el contenido del elemento de resultado utilizando document.getElementById()  e innerHTML para mostrar el amigo sorteado.
 let resultado=document.getElementById("resultado");
 resultado.innerHTML=`Tu amigo secreto es: ${amigoSecreto}`;
-
+//fin de la función
 }
+
 
